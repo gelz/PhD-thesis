@@ -46,7 +46,7 @@ noise_power_2 = 0.001;
 
 x_0 = [T_0,amplitude_0];
 seita_0 = [T_variance, amplitude_variance,noise_power_2];
-s0 = clean_data(1:3*T_0);
+s0 = clean_data(1:3*T_0);  
 noise_power = 0.1;
 D_store = zeros(N_p,length(data_input)+300);
 % set the proposal function: q(x_k1|x_k1-1) = x_k1-1 +
